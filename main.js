@@ -1,7 +1,7 @@
 Webcam.set({
     width: 350,
     height: 300,
-    image_format: "png",  // Fixed typo
+    image_format: "png",
     png_quality: 90
 });
 
@@ -15,13 +15,13 @@ function TakeSnapshot(){
 }
 
 console.log('ML5 Version:',ml5.version);
-//classifier = ml5.imageClassifier("https://teachablemachine.withgoogle.com/models/NDyEZcy2M/", model_load);
-classifier = ml5.imageClassifier("https://cors-anywhere.herokuapp.com/https://teachablemachine.withgoogle.com/models/NDyEZcy2M/", model_load);
+classifier = ml5.imageClassifier("https://teachablemachine.withgoogle.com/models/NDyEZcy2M/", model_load);
+//classifier = ml5.imageClassifier("https://cors-anywhere.herokuapp.com/https://teachablemachine.withgoogle.com/models/NDyEZcy2M/", model_load);
 // classifier = ml5.imageClassifier("https://api.allorigins.win/raw?url=https://teachablemachine.withgoogle.com/models/NDyEZcy2M/", model_load);
 // classifier = ml5.imageClassifier("https://api.allorigins.win/raw?url=https://teachablemachine.withgoogle.com/models/NDyEZcy2M/model.json", model_load);
 
 function model_load(){
-    console.log("The model is loaded...");  // Fixed grammar
+    console.log("The model is loaded...");
 }
 
 function check(){
@@ -33,7 +33,8 @@ function check(){
 function gotResult(error, results) {
     if (error) {
         console.log(error);
-    } else {
+    } 
+    else {
         console.log(results);
         document.getElementById("pre1").innerHTML = results[0].label;
         document.getElementById("pre2").innerHTML = results[1].label;
