@@ -36,7 +36,7 @@ function gotResult(error, results) {
     } else {
         console.log(results);
         document.getElementById("pre1").innerHTML = results[0].label;
-        document.getElementById("pre1").innerHTML = results[1].label;
+        document.getElementById("pre2").innerHTML = results[1].label;
 
         recognition1 = results[0].label;
         recognition2 = results[1].label;
