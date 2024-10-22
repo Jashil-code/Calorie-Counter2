@@ -1,0 +1,104 @@
+body{
+    background-image:url(bg.png);
+    background-size: cover;
+}
+
+#head{
+    margin-top:0;
+    width:100%;
+    font-size:30px;
+    border-radius:10px;
+    color:chartreuse;
+}
+
+#bun{
+    font-size:20px;
+}
+
+.copy_right_footer{
+    position: fixed;
+    bottom:0;
+    background-color:aquamarine;
+    width: 100%;
+    text-align: center;
+    font-size:30px;
+    color:blue;
+}
+
+.image-container {
+    display: flex;
+    align-items: center;
+    margin-left: 30%;
+}
+
+.Images {
+    width: 100px;
+    height: auto;
+    margin: 0 10px;
+}
+
+#container {
+    position: fixed;
+    bottom: 15%;
+    right: 70%;
+}
+
+#container2{
+    position: fixed;
+    bottom: 10%;
+    left:70%;
+}
+
+#web {
+    display: block;
+    margin: 0 auto;
+    padding: 10px 20px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+#snap{
+    display: block;
+    margin: 0 auto;
+    padding: 10px 20px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+#Capture_img{
+    display: block;
+    margin: 0 auto;
+    padding: 10px 20px;
+    background-color:red;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+#reco{
+    display: block;
+    margin: 0 auto;
+    padding: 10px 20px;
+    background-color:red;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+#result{
+    border: 2px dashed black;
+    width: 350px;
+    height: 300px;
+}
